@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zidingyi="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.wu_.min2application.Sliding
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        zidingyi:rightPadding="55dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <include layout="@layout/third"
+               />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/content">
+            </LinearLayout>
+        </LinearLayout>
+    </com.example.wu_.min2application.Sliding>
+</RelativeLayout>
